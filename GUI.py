@@ -51,7 +51,7 @@ root = Tk()
 # root window title and dimension
 root.title("Sending Confirmation")
 
-# EFL 3PL Image settings
+# Image settings
 image = PhotoImage(file=r"efl3pl.png")
 image = image.subsample(3, 3)
 Label(root, image=image).grid(row=0,
